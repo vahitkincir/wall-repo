@@ -1,0 +1,26 @@
+{
+  "Version": 1,
+  "ProjectMap": {
+    "ddcf4eff-4d57-47ad-9a65-a8c23347348e": {
+      "ProjectGuid": "ddcf4eff-4d57-47ad-9a65-a8c23347348e",
+      "DisplayName": "wall",
+      "ColorIndex": 0
+    },
+    "2628f29b-06ac-4241-93b7-6778046d25cf": {
+      "ProjectGuid": "2628f29b-06ac-4241-93b7-6778046d25cf",
+      "DisplayName": "EntityLayer",
+      "ColorIndex": 1
+    },
+    "163bb268-1943-435d-acb5-81ba924e17b6": {
+      "ProjectGuid": "163bb268-1943-435d-acb5-81ba924e17b6",
+      "DisplayName": "DataAccessLayer",
+      "ColorIndex": 2
+    },
+    "0f6d07fc-fed8-4b2c-9be3-0d82960f429d": {
+      "ProjectGuid": "0f6d07fc-fed8-4b2c-9be3-0d82960f429d",
+      "DisplayName": "BusinessLayer",
+      "ColorIndex": 3
+    }
+  },
+  "NextColorIndex": 4
+}

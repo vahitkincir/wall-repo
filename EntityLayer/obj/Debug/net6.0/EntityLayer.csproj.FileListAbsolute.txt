@@ -1,0 +1,14 @@
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\bin\Debug\net6.0\EntityLayer.deps.json
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\bin\Debug\net6.0\EntityLayer.runtimeconfig.json
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\bin\Debug\net6.0\EntityLayer.dll
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\bin\Debug\net6.0\ref\EntityLayer.dll
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\bin\Debug\net6.0\EntityLayer.pdb
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.AssemblyReference.cache
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\obj\Debug\net6.0\EntityLayer.GeneratedMSBuildEditorConfig.editorconfig
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfoInputs.cache
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\obj\Debug\net6.0\EntityLayer.AssemblyInfo.cs
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\obj\Debug\net6.0\EntityLayer.csproj.CoreCompileInputs.cache
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\obj\Debug\net6.0\EntityLayer.dll
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\obj\Debug\net6.0\ref\EntityLayer.dll
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\obj\Debug\net6.0\EntityLayer.pdb
+D:\WORKSPACE\MVC_WORKSPACE\wallProject\EntityLayer\obj\Debug\net6.0\EntityLayer.genruntimeconfig.cache
