@@ -1,18 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityLayer.Entity
+namespace EntityLayer
 {
-    public class post : basemodel
+    public class post : baseentity
     {
-        public int userid { get; set; }
+        public string userid { get; set; }
         public string context { get; set; }
-
-        public user user { get; set; }
+        public string media { get; set; }
     }
 }

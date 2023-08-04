@@ -1,19 +1,15 @@
 ﻿using System;
 using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations;
-using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace EntityLayer.Entity
+namespace EntityLayer
 {
-    public class userprofile : basemodel
+    public class userprofile : baseentity
     {
+        public string userid { get; set; }
         public string profilepic { get; set; }
-        public string profilemessage { get; set; }
-
-        public user user { get; set; }
-
+        public string profiledescrip { get; set; }
     }
 }
