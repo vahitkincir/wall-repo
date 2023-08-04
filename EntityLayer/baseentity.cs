@@ -6,7 +6,11 @@ using System.Threading.Tasks;
 
 namespace EntityLayer
 {
-    internal class baseentity
+    public abstract class baseentity
     {
+        public int id { get; set; }
+        public Boolean isactive { get; set; }
+        public DateTime created { get; set; }
+        public DateTime updated { get; set; }
     }
 }

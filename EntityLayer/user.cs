@@ -6,7 +6,9 @@ using System.Threading.Tasks;
 
 namespace EntityLayer
 {
-    internal class user
+    public class user:baseentity
     {
+        public string username { get; set; }
+        public string password { get; set; }
     }
 }

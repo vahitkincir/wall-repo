@@ -15,6 +15,11 @@ namespace DataAccessLayer.Context
 
         }
 
+        protected override void OnModelCreating(ModelBuilder modelBuilder)
+        {
+            
+        }
+
         public DbSet<user> users { get; set; }
 
         public DbSet<userprofile> userprofiles { get; set; }
