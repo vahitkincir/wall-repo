@@ -8,8 +8,8 @@ namespace EntityLayer
 {
     public class post : baseentity
     {
-        public string userid { get; set; }
+        public string username { get; set; }
         public string context { get; set; }
-        public string media { get; set; }
+        public string? media { get; set; }
     }
 }

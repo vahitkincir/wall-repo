@@ -28,5 +28,16 @@ namespace wall.API
             return _userservice.GetUserById(id);
         }
 
+        [HttpPost]
+        public user Post([FromBody] user user)
+        {
+            return _userservice.CreateUser(user);
+        }
+        [HttpPut]
+        public user Put([FromBody] user user)
+        {
+            return _userservice.UpdateUser(user);
+        }
+
     }
 }

@@ -8,7 +8,7 @@ namespace EntityLayer
 {
     public class userinfo:baseentity
     {
-        public string userid { get; set; }
+        public string username { get; set; }
         public string firstname { get; set; }
         public string surname { get; set; }
         public string gender { get; set; }

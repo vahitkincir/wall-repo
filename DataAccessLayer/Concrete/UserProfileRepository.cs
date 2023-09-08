@@ -12,16 +12,19 @@ namespace DataAccessLayer.Concrete
     public class UserProfileRepository : IUserProfileRepository
     {
         wallContext _wallContext;
+
         public UserProfileRepository(wallContext wallContext)
         {
             _wallContext = wallContext;
         }
-        public void CreateUserProfile(userprofile userprofile)
+
+        public userprofile CreateUserProfile(userprofile userprofile)
         {
             using (_wallContext)
             {
                 _wallContext.userprofiles.Add(userprofile);
                 _wallContext.SaveChanges();
+                return userprofile;
             }
         }
 
@@ -33,12 +36,15 @@ namespace DataAccessLayer.Concrete
                 _wallContext.userprofiles.Remove(profile);
                 _wallContext.SaveChanges();
             }
+            
         }
 
         public List<userprofile> GetAllUserProfiles()
         {
-            var profiles = _wallContext.userprofiles.ToList();
-            return profiles;
+            using (_wallContext)
+            {
+                return _wallContext.userprofiles.ToList();
+            }
         }
 
         public userprofile GetUserProfileById(int id)

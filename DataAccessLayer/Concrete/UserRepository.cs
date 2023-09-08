@@ -59,6 +59,7 @@ namespace DataAccessLayer.Concrete
             using (_wallContext)
             {
                 _wallContext.users.Update(user);
+                _wallContext.SaveChanges();
                 return user;
 
             }

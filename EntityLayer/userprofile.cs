@@ -8,8 +8,8 @@ namespace EntityLayer
 {
     public class userprofile : baseentity
     {
-        public string userid { get; set; }
-        public string profilepic { get; set; }
-        public string profiledescrip { get; set; }
+        public string username { get; set; }
+        public string? profilepic { get; set; }
+        public string? profiledescrip { get; set; }
     }
 }

@@ -41,13 +41,12 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("boolean");
 
                     b.Property<string>("media")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("updated")
+                    b.Property<DateTime?>("updated")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("userid")
+                    b.Property<string>("username")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -74,7 +73,7 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("updated")
+                    b.Property<DateTime?>("updated")
                         .HasColumnType("timestamp with time zone");
 
                     b.Property<string>("username")
@@ -115,10 +114,10 @@ namespace DataAccessLayer.Migrations
                         .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("updated")
+                    b.Property<DateTime?>("updated")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("userid")
+                    b.Property<string>("username")
                         .IsRequired()
                         .HasColumnType("text");
 
@@ -142,17 +141,15 @@ namespace DataAccessLayer.Migrations
                         .HasColumnType("boolean");
 
                     b.Property<string>("profiledescrip")
-                        .IsRequired()
                         .HasColumnType("text");
 
                     b.Property<string>("profilepic")
-                        .IsRequired()
                         .HasColumnType("text");
 
-                    b.Property<DateTime>("updated")
+                    b.Property<DateTime?>("updated")
                         .HasColumnType("timestamp with time zone");
 
-                    b.Property<string>("userid")
+                    b.Property<string>("username")
                         .IsRequired()
                         .HasColumnType("text");
 
